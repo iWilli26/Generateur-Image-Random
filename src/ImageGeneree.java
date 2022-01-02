@@ -13,6 +13,8 @@ public class ImageGeneree extends JComponent {
     Expr exp_g;
     Expr exp_b;
     RenderedImage im;
+    int yooo;
+
     
     Expr random_expr(int level) {
         if (level == 0) {
